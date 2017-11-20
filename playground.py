@@ -2,7 +2,9 @@
 
 print('Hello world')
 
+
 # Lists
+
 fruits = ['Apple', 'Orange', 'Watermelon']
 print(fruits[1])
 print(fruits[-1])
@@ -36,3 +38,11 @@ fighter = {
 #print(fighter['name'])
 print fighter.get('name')
 print fighter.get('trash')
+
+# True, False, None
+
+def print_fruits(fruits_list):
+    for fruit in fruits_list:
+        print(fruit)
+
+print_fruits(fruits)
