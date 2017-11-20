@@ -22,3 +22,17 @@ print(numbers[1::2])
 
 print('4 in numbers')
 print(4 in numbers)
+
+
+# Dictionarys
+
+fighter = {
+    'name': 'Chuck',
+    'lastname': 'Norris',
+    'technique': 'karate'
+}
+
+# Don't access this way (non existance error) (server error in Django)
+#print(fighter['name'])
+print fighter.get('name')
+print fighter.get('trash')
